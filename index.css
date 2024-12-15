@@ -253,15 +253,17 @@ body {
     height: 100%;
 }
 .firstWin21 {
-    width: 60%;
+    width: 100%;
     height: calc(100% - 20rem);
     margin-top: 10rem;
 }
 .firstWin211 {
-    height: 80%;
+    height: 100%;
+    width: 100%;
     background-image: url(img/2024-12-15_10-49-51\ 1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+}
 }
 .firstWin211:hover {
     transform: scale( 1.2);
