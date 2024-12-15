@@ -108,6 +108,88 @@ body {
         top: 1rem;
     }
 }
+@media screen and ( min-width:300px) and (max-width:450px) {
+    html {
+        font-size: 6px;
+    }
+    div.spin11111 {
+        padding-top: 3rem;
+    }
+    div.firstWin {
+        height: 40vh;
+    }
+    div.spin11 {
+        font-size: 2rem;
+    }
+    div.spin111111 {
+        width: 16rem;
+    }
+    .spin1111 {
+        font-size: 1.5rem;
+    }
+    div.threeWin1 {
+        height: 20rem;
+    }
+    div.threeWin11 {
+        padding-top: 2rem;
+        width: 80%;
+        margin-left: 5rem;
+    }
+    div.fourWin111 {
+        margin: 0;
+        width: 100%;
+    }
+    div.threeWin2 {
+    height: auto;
+    }
+    div.fourWin {
+        height: 90rem;
+    }
+    div.fourWin1 {
+        display: flex;
+        border-radius: 2rem;
+        border: 5px solid #5294f7;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        height: 100%%;
+    }
+    div.fourWin12 {
+        width: 100%;
+        position: relative;
+        bottom: 2rem;        
+    }
+    div.kok {
+        position: relative;
+        top: 1rem;
+    }
+    div.firstWin {
+        height: 35vh;
+    }
+    div.firstWin21 {
+        height: 100%;
+        width: 90%;
+        float: right;
+    }
+    .fourWin111 {
+        font-size: 1.5rem;
+    }
+    div.spin {
+        width: calc(100% - 3rem);
+        margin: 0 1rem 0 2rem;
+    }
+    div.threeWin221 {
+        margin: 0;
+        width: auto;
+    }
+    div.firstWin11 p {
+        width: 30rem;
+    }
+    div.fourWin11 {
+        width: 100%;
+    }
+}
 .firstWin {
     width: 100%;
     height: 100vh;
