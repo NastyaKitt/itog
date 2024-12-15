@@ -1,0 +1,321 @@
+
+body {
+    margin: 0;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 10px;
+    }
+}
+.firstWin {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Group\ 8.jpg);
+    background-size: cover;
+    display: flex;
+}
+.firstWin1 {
+    width: calc(50% - 11rem);
+    height: calc(100% - 2rem);
+    margin: 0 5rem;
+    padding-top: 1rem;
+    margin-right: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 1s;
+}
+.firstWin11 {
+    width: 99%;
+    font-size: 4rem;
+}
+.firstWin11 b {
+    color: red;
+}
+.firstWin11 p {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+}
+.firstWin12 {
+    width: 30rem;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: #3D8AFF;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.firstWin12:hover {
+    background-color: #5294f7;
+    transform: translateY(-10px);
+    transition: 1s;
+    box-shadow: 0 5px 10px #000000;
+}
+.firstWin2 {
+    width: calc(50% + 10rem);
+    height: 100%;
+}
+.firstWin21 {
+    width: 60%;
+    height: calc(100% - 20rem);
+    margin-top: 10rem;
+}
+.firstWin211 {
+    height: 80%;
+    background-image: url(img/2024-12-15_10-49-51\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.firstWin211:hover {
+    transform: scale( 1.2);
+    transition: 1s;
+    box-shadow: 0 5px 10px #333;
+}
+.secondWin {
+    width: 100%;
+    height: 7rem;
+    background-color: #3D8AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.secondWin1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.icon {
+    display: flex;
+    width: 20rem;
+    align-items: center;
+}
+.icontxt {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.icontxt p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.threeWin {
+    width: 100%;
+    height: 80rem;
+}
+.threeWin1 {
+    width: 100%;
+    height: 25rem;
+}
+.threeWin11 {
+    width: 60%;
+    margin-left: 10rem;
+    padding-top: 10rem;
+    font-size: 4rem;
+    color: #3D8AFF;
+}
+.threeWin11 p{
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+}
+.threeWin2 {
+    width: 100%;
+    height: 100rem;
+}
+.threeWin21 {
+    width: calc(100% - 20rem);
+    height: 15rem;
+    display: flex;
+    padding: 0 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.threeWin22 {
+    width: 100%;
+    height: 50rem;
+}
+.threeWin221 {
+    width: calc(100% - 10rem);
+    height: 100%;
+    margin: 0 5rem;
+    background-color: #333;
+}
+.spin {
+    width: calc(100% - 8rem);
+    height: calc(100% - 4rem);
+    margin: 0 1rem 0 7rem;
+    padding: 3rem 0 1rem 0;
+    display: flex;
+}
+.spin1 {
+    width: 40%;
+    height: 100%;    
+}
+.spin11 {
+    width: 100%;
+    height: 100%;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.spin111 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.spin111 b {
+    color: #3D8AFF;
+}
+.spin1111 {
+    padding-top: 1rem;
+}
+.spin11111 {
+    padding-top: 15rem;
+}
+.spin111111 {
+    width: 20rem;
+    height: 4rem;
+    background-color: #3D8AFF;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.spin111111:hover {
+    background-color: #5294f7;
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 10px #000;
+    transition: 1s;
+}
+.spin2 {
+    width: calc(100% - 40%); 
+    height: 100%;
+}
+.spin21 {
+    background-image: url(img/image\ 1.png);
+    height: 50%;
+    width: 100%;
+}
+.spin22 {
+    height: 50%;
+    width: 100%;
+    background-image: url(img//image\ 2.png);
+}
+.fourWin {
+    height: 50rem;
+    width: 100%;
+}
+.fourWin1 {
+    width: calc(100% - 10rem);
+    height: 100%;
+    margin: 0 5rem;
+    display: flex;
+    border-radius: 2rem;
+    border: 5px solid #5294f7;
+}
+.fourWin11 {
+    width: calc(50% - 5rem);
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.fourWin111 {
+    width: calc(90% - 10rem);
+    margin: 0 5rem;
+    padding-top: 3rem;
+    color: #000;
+}
+.fourWin112 {
+    height:20rem;
+    width: 20rem;
+    border-radius: 5rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(img/image\ 7\ .jpg);
+}
+.fourWin113 {
+    padding-bottom: 3rem;
+    color: #000;
+}
+.fourWin113 b {
+    color: #3D8AFF;
+}
+.fourWin12 {
+    width: calc(50% + 5rem);
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #333;
+    align-items: center;
+    border-radius: 1.7rem;
+}
+.fourWin121 {
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+.fourWin121 b {
+    color: red;
+    font-weight: 600;
+}
+.formapot {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.postmate {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 1rem;
+
+}
+.postmate:focus {
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+.nnnn {
+    color: #3D8AFF;
+}
+.TG {
+    height: 5rem;
+    line-height: 5rem;
+    display: flex;
+    align-items: center;
+}
+.tgg {
+    height: 50px;
+}
+
+.kok {
+    width: 30rem;
+    height: 3rem;
+    background-color: #3D8AFF;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.kok:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+    background-color: #5294f7;
+}
+.footer {
+    width: 100%;
+    height: 10rem;
+    background-color: #333;
+    margin-top: 3rem;
+    text-align: center;
+    line-height: 10rem;
+}
