@@ -189,6 +189,24 @@ body {
     div.fourWin11 {
         width: 100%;
     }
+    .firstWin211 {
+        display: none;
+    }
+    .firstWin12 {
+        width: auto;
+    }
+}
+@media screen and ( min-height:400px) and (max-height:900px) {
+    div.firstWin {
+        background-color: #333;
+        background-image: none;
+    }
+    div.firstWin1 {
+        width: 100%;
+        }
+    div.firstWin2 {
+        display: none;
+    }
 }
 .firstWin {
     width: 100%;
