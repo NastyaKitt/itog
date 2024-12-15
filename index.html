@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -16,7 +18,6 @@
             <div class="firstWin11">Выведем ваш сайт в топы <br><b>Я</b>ндекса и Google
                 <p>Оплата только после результата! <br>Сначала результат-только потом подписываем договор </p>
             </div>
-           <a href="#feere"><button class="firstWin12">Заказать тест</button></a>
         </div>
         <div class="firstWin2">
             <div class="firstWin21">
@@ -49,7 +50,7 @@
     <div class="threeWin">
         <div class="threeWin1">
             <div class="threeWin11">Кейсы
-                <p>Конкретные примеры нашей работы с клиентами из разных отраслей. Каждый кейс содержит исходные данные, описание выполненных работ и достигнутые результаты, выраженные в количественных показателях</p>
+                <p>Познакомьтесь с успешными кейсами наших клиентов из разных отраслей! Каждый пример включает исходные данные, выполненные работы и впечатляющие результаты в количественных показателях. Узнайте, как мы помогаем бизнесам расти!</p>
             </div>        
         </div>
         <div class="threeWin2">
@@ -79,7 +80,7 @@
     <div class="fourWin">
         <div class="fourWin1">
             <div class="fourWin11">
-                <div class="fourWin111">Перезвоним в течение часа, проведём бесплатный аудит сайта и разработаем персональную SEO-стратегию.</div>
+                <div class="fourWin111">Свяжемся с вами в течение часа, сделаем бесплатный аудит сайта! Разработаем индивидуальную SEO-стратегию, рассчитаем прогноз роста трафика и составим чёткий план действий для выхода в ТОП-3. Увеличьте свою видимость и привлеките клиентов!</div>
                 <div class="fourWin112"></div>
                 <div class="fourWin113"><b>Алексей Морин</b><br>Руководитель отдела продаж</div>
             </div>
@@ -87,14 +88,21 @@
                 <div class="fourWin121">Продвинуть сайт в ТОП-3 <b>Я</b>ндекса и Google</div>
                 <form action="mailto:Vbloger23@gmai.com" method="post" enctype="text/plain" class="formapot" >
                     <label for="name"  class="nnnn" >Имя</label>
-                    <input type="text" id="name" name="name" class="postmate" required>
-                  
+                    <input type="text" id="name" class="postmate" required >
+
                     <label for="email" class="nnnn" >Телефон</label>
-                    <input type="number" id="number" name="number" class="postmate" required>
+                    <input type="text" id="phone" name="number" class="postmate" required>
+                    <script>$(document).ready(function() {
+                        $("#phone").mask("+7 (999) 999-99-99");
+                    });</script>
+                    <label for="message" class="nnnn"  >Ваш сайт</label>
+                    <textarea id="text" name="message" class="postmate" required></textarea>
                   
-                    <label for="message" class="nnnn" >Ваш сайт</label>
-                    <textarea id="message" name="message" class="postmate" required></textarea>
-                  
+                    <div class="wwww">
+                        <input type="checkbox" class="ssss" required>
+                        Вы даете согласие на обработку персональных данных
+                    </div>
+
                     <input type="submit" class="kok" id="feere" value="Отправить">
                   </form>
                   <label class="TG">  &nbsp;
